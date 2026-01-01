@@ -102,18 +102,31 @@ body {
     align-items: center;
 }
 
-.nav-logo a {
-    font-size: 1.9rem;
-    font-weight: 700;
-    color: var(--accent-teal);
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: var(--transition);
+.nav-logo {
+    display: flex;
+    align-items: center;
 }
 
-.nav-logo a:hover {
-    color: var(--accent-gold);
-    transform: scale(2.05);
+.nav-logo a {
+    display: inline-block;
+    text-decoration: none;
+    transition: var(--transition);
+    line-height: 0;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    display: block;
+    transition: var(--transition);
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    object-fit: contain;
+}
+
+.nav-logo a:hover .logo-image {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .nav-menu {
@@ -995,6 +1008,10 @@ section {
     .nav-container {
         padding: 0 1.5rem;
     }
+
+    .logo-image {
+        height: 38px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1115,8 +1132,8 @@ section {
         padding: 0 1.25rem;
     }
 
-    .nav-logo a {
-        font-size: 1.3rem;
+    .logo-image {
+        height: 35px;
     }
 
     .scroll-top {
