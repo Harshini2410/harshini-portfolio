@@ -4,12 +4,12 @@ A modern, responsive single-page portfolio website showcasing skills, projects, 
 
 ## Features
 
-- ✨ **Modern Design**: Dark theme with professional color scheme (navy, teal, gold accents)
-- 📱 **Fully Responsive**: Optimized for all devices (desktop, tablet, mobile)
-- 🎨 **Smooth Animations**: Fade-in effects, hover interactions, and smooth scrolling
-- 🚀 **Performance**: Lightweight vanilla JavaScript, no heavy frameworks
-- ♿ **Accessible**: Semantic HTML with proper ARIA labels
-- 🎯 **SEO Ready**: Meta tags and semantic structure
+-  **Modern Design**: Dark theme with professional color scheme (navy, teal, gold accents)
+-  **Fully Responsive**: Optimized for all devices (desktop, tablet, mobile)
+-  **Smooth Animations**: Fade-in effects, hover interactions, and smooth scrolling
+-  **Performance**: Lightweight vanilla JavaScript, no heavy frameworks
+-  **Accessible**: Semantic HTML with proper ARIA labels
+-  **SEO Ready**: Meta tags and semantic structure
 
 ## Sections
 
@@ -90,11 +90,6 @@ Update sections in `index.html`:
 - Projects: Update project cards with your projects
 - Certifications: Add new certifications
 
-### Links
-Update project links and social media links in `index.html`:
-- Replace `#` with actual URLs for GitHub and live demos
-- Add social media profile links in the footer
-
 ## Browser Support
 
 - Chrome (latest)
@@ -122,6 +117,6 @@ This project is open source and available for personal use.
 
 ---
 
-Built with ❤️ using HTML, CSS, and JavaScript
+Built using HTML, CSS, and JavaScript
 
 
