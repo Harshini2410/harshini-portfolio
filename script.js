@@ -252,3 +252,4 @@ console.log('%c👋 Welcome to my portfolio!', 'color: #64ffda; font-size: 20px;
 console.log('%cBuilt with passion using HTML, CSS, and JavaScript', 'color: #8892b0; font-size: 12px;');
 
 
+
