@@ -254,6 +254,7 @@ body {
     color: var(--accent-teal);
     font-size: 1.1rem;
     font-weight: 500;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     animation: fadeInUp 0.8s ease-out;
 }
